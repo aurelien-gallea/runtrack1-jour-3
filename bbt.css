@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Merriweather:wght@300;400;700&family=Pacifico&family=Roboto:wght@100;300;400;700&display=swap');
+
+:root{
+    --bg-color-dark: rgb(34, 34, 107);
+    --bg-color-flashy: rgba(255, 166, 0, 0.767);
+}
+
+*, html, body {
+    margin: 0;
+    font-family: "Merriweather";
+    font-size: 1.4rem;
+    
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+body{
+    background-color: var(--bg-color-dark);
+    color: white;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Pacifico";
+    margin-bottom: 1rem;
+    color: var(--bg-color-flashy);
+}
+img{
+    max-width: 100%;
+    width: 200px;
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+
+}
+
+ul {
+    list-style-type: square;
+}
+
+a{
+    text-decoration: none;
+    color: var(--bg-color-flashy);
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 0.8rem 0;
+    background-color: #1f1f1f;
+}
+footer div {
+    width: 90%;
+    margin: auto;
+    
+}
